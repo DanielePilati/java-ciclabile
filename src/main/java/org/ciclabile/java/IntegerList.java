@@ -63,6 +63,8 @@ public class IntegerList {
 			System.out.println("ci sonno altri elementi da scorrere? = "+intList.hasAncoraElementi());
 		}
 		
+		System.out.println("-----------------------------------------");
+		
 		intList.addElemento(15);
 		System.out.println("ci sonno altri elementi da scorrere? = "+intList.hasAncoraElementi());
 		System.out.println(intList.getElementoSuccessivo());
